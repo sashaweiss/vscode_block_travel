@@ -1,12 +1,13 @@
 {
     "name": "block-travel",
     "displayName": "Block Travel",
-    "description": "Navigate by code block!",
+    "description": "Navigate by code 'paragraph'!",
     "version": "0.0.1",
     "publisher": "sashaweiss",
     "engines": {
         "vscode": "^1.10.0"
     },
+    "license": "MIT",
     "categories": [
         "Other"
     ],
@@ -73,5 +74,13 @@
         "eslint": "^3.6.0",
         "@types/node": "^6.0.40",
         "@types/mocha": "^2.2.32"
+    },
+    "bugs": {
+        "url": "https://github.com/sashaweiss/vscode_block_travel/issues"
+    },
+    "homepage": "https://github.com/sashaweiss/vscode_block_travel/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sashaweiss/vscode_block_travel"
     }
 }
