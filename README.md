@@ -10,9 +10,9 @@ Travel in a text editor by jumping over code "paragraphs", to the closest empty 
 
 The following commands and corresponding default keybindings are provided:
 ```
-block-travel.moveUp: alt+up
+block-travel.jumpUp: alt+up
 block-travel.selectUp: alt+shift+up
-block-travel.moveDown: alt+down
+block-travel.jumpDown: alt+down
 block-travel.selectDown: alt+shift+down
 ```
 

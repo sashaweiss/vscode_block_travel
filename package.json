@@ -17,19 +17,19 @@
         "navigation"
     ],
     "activationEvents": [
-        "onCommand:block-travel.moveUp",
-        "onCommand:block-travel.moveDown",
+        "onCommand:block-travel.jumpUp",
+        "onCommand:block-travel.jumpDown",
         "onCommand:block-travel.selectUp",
         "onCommand:block-travel.selectDown"
     ],
     "main": "src/extension",
     "contributes": {
         "commands": [{
-            "command": "block-travel.moveUp",
+            "command": "block-travel.jumpUp",
             "title": "Block travel up"
         },
         {
-            "command": "block-travel.moveDown",
+            "command": "block-travel.jumpDown",
             "title": "Block travel down"
         },
         {
@@ -42,12 +42,12 @@
         }],
         "keybindings": [
             {
-                "command": "block-travel.moveUp",
+                "command": "block-travel.jumpUp",
                 "key": "alt+up",
                 "when": "editorTextFocus"
             },
             {
-                "command": "block-travel.moveDown",
+                "command": "block-travel.jumpDown",
                 "key": "alt+down",
                 "when": "editorTextFocus"
             },
