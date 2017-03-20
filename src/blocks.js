@@ -39,6 +39,7 @@ function changeActive(editor, newPosn) {
     // const anchor = editor.selection.anchor
     var newSelection = new vscode.Selection(newPosn, newPosn)
     editor.selection = newSelection
+    editor.revealRange(new vscode.Range(newPosn, newPosn))
 }
 
 /**
@@ -50,6 +51,7 @@ function changeActiveSelect(editor, newPosn) {
     const anchor = editor.selection.anchor
     var newSelection = new vscode.Selection(anchor, newPosn)
     editor.selection = newSelection
+    editor.revealRange(new vscode.Range(newPosn, newPosn))
 }
 
 /**
