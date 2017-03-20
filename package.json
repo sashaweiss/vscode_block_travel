@@ -2,7 +2,7 @@
     "name": "block-travel",
     "displayName": "Block Travel",
     "description": "Navigate by code 'paragraph'!",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "sashaweiss",
     "engines": {
         "vscode": "^1.10.0"
@@ -24,22 +24,24 @@
     ],
     "main": "src/extension",
     "contributes": {
-        "commands": [{
-            "command": "block-travel.jumpUp",
-            "title": "Block travel up"
-        },
-        {
-            "command": "block-travel.jumpDown",
-            "title": "Block travel down"
-        },
-        {
-            "command": "block-travel.selectUp",
-            "title": "Block select up"
-        },
-        {
-            "command": "block-travel.selectDown",
-            "title": "Block select down"
-        }],
+        "commands": [
+            {
+                "command": "block-travel.jumpUp",
+                "title": "Block travel up"
+            },
+            {
+                "command": "block-travel.jumpDown",
+                "title": "Block travel down"
+            },
+            {
+                "command": "block-travel.selectUp",
+                "title": "Block select up"
+            },
+            {
+                "command": "block-travel.selectDown",
+                "title": "Block select down"
+            }
+        ],
         "keybindings": [
             {
                 "command": "block-travel.jumpUp",
