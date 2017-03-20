@@ -38,7 +38,29 @@
         {
             "command": "block-travel.selectDown",
             "title": "Block select down"
-        }]
+        }],
+        "keybindings": [
+            {
+                "command": "block-travel.moveUp",
+                "key": "alt+up",
+                "when": "editorTextFocus"
+            },
+            {
+                "command": "block-travel.moveDown",
+                "key": "alt+down",
+                "when": "editorTextFocus"
+            },
+            {
+                "command": "block-travel.selectUp",
+                "key": "alt+shift+up",
+                "when": "editorTextFocus"
+            },
+            {
+                "command": "block-travel.selectDown",
+                "key": "alt+shift+down",
+                "when": "editorTextFocus"
+            }
+        ]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
