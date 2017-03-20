@@ -16,13 +16,28 @@
         "navigation"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:block-travel.moveUp",
+        "onCommand:block-travel.moveDown",
+        "onCommand:block-travel.selectUp",
+        "onCommand:block-travel.selectDown"
     ],
-    "main": "./extension",
+    "main": "src/extension",
     "contributes": {
         "commands": [{
-            "command": "extension.sayHello",
-            "title": "Hello World"
+            "command": "block-travel.moveUp",
+            "title": "Block travel up"
+        },
+        {
+            "command": "block-travel.moveDown",
+            "title": "Block travel down"
+        },
+        {
+            "command": "block-travel.selectUp",
+            "title": "Block select up"
+        },
+        {
+            "command": "block-travel.selectDown",
+            "title": "Block select down"
         }]
     },
     "scripts": {
