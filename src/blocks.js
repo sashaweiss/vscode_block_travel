@@ -25,7 +25,7 @@ function emptyLineAbove(editor) {
     var line = editor.selection.active.line
 
     min = 0
-    while (line > 0 && !document.lineAt(--line).isEmptyOrWhitespace) {}
+    while (line > min && !document.lineAt(--line).isEmptyOrWhitespace) {}
 
     return document.lineAt(line)
 }
