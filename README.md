@@ -1,5 +1,7 @@
 # block-travel
 
+_**Note that [VSC now has similar functionality built-in](https://github.com/microsoft/vscode/issues/114166)!**_
+
 Navigate documents, jumping by paragraph! Jumps up or down to nearest all-whitespace line.
 
 Inspired by [Atom Block Travel](https://atom.io/packages/block-travel).
